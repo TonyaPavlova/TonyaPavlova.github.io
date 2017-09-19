@@ -1,0 +1,558 @@
+/*  reset  */
+html, body { font-size: 100%; -webkit-text-size-adjust: 100%;  -ms-text-size-adjust: 100%; height: 100%; overflow: hidden;}
+*{margin: 0;padding: 0;border: 0;}
+a{ outline: none; }
+img {vertical-align: middle;-ms-interpolation-mode: bicubic;}
+/* CONTENT */
+
+ 
+div {
+  display: block;
+}
+
+.TestWrapper{
+	width:100%;
+	max-width:1170px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+
+.TestSectionOne {
+    background-color: #fff;
+    background-image: url(http://multimedia.newsletter.rivegauche.ru/rivegauche/1/1/photos/4009.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100% 100%;
+	
+}
+
+
+
+.logoTop {
+  margin-left: 690px;
+  width: 278px;
+  padding-top: 84px;
+    
+}
+
+
+.TestText {
+	width: 500px;
+  padding-top: 110px;
+  margin-left: 585px;
+}
+
+
+p.one {
+	  font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 32px;
+    color: black;    
+    width: 500px;
+} 
+
+
+
+button {
+	  font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    background-color: #e3e9f0;
+    border: 2px solid #000000;
+    height: 62px;
+    padding: 0 10px;
+    cursor: auto;}
+
+.button {    
+    padding-top: 26px;
+    width: 428px;
+    margin-left: 615px;
+}
+
+.logoBottom {
+  padding-top: 130px;
+  width: 300px;
+  margin-left: 700px;
+  
+}
+	
+/*Media Queries -----------------------------------------------------------------------------*/
+@media only screen and (max-width: 1124px) {
+
+
+.logoTop {
+  margin-left: 570px;
+  width: 30%;
+  height: auto;
+  padding-top: 10px;
+    
+}
+
+.TestText {
+    width: 50%;
+    padding-top: 80px;
+    margin-left: 570px;
+}
+
+p.one {
+    
+    font-size: 22px;
+    
+}
+
+.button {    
+    padding-top: 20px;
+    width: 35%;
+    margin-left: 570px;
+}
+
+button {
+  font-size: 22px;
+}
+
+.logoBottom {
+  
+  padding-top: 30px;
+  width: 30%;
+  height: auto;
+  margin-left: 570px;
+  
+}}
+
+/*********************************************************************************************/
+
+@media only screen and (max-width: 1024px) {
+
+
+.logoTop {
+  margin-left: 550px;
+  width: 30%;
+  height: auto;
+  padding-top: 10px;
+    
+}
+
+.TestText {
+    width: 50%;
+    padding-top: 60px;
+    margin-left: 550px;
+}
+
+p.one {
+    
+    font-size: 22px;
+    
+}
+
+.button {    
+    padding-top: 20px;
+    width: 35%;
+    margin-left: 550px;
+}
+
+button {
+  font-size: 22px;
+}
+
+.logoBottom {
+  
+  padding-top: 30px;
+  width: 30%;
+  height: auto;
+  margin-left: 550px;
+  
+}}
+/*********************************************************************************************/
+@media only screen and (max-width: 905px) {
+
+.logoTop {
+  margin-left: 455px;
+  width: 30%;
+  height: auto;
+  padding-top: 10px;
+    
+}
+.TestText {
+    width: 50%;
+    padding-top: 30px;
+    margin-left: 430px;
+}
+
+p.one {
+    
+    font-size: 22px;
+    
+}
+
+.button {    
+    padding-top: 20px;
+    width: 35%;
+    margin-left: 445px;
+}
+
+button {
+  font-size: 22px;
+}
+
+.logoBottom {
+  
+  padding-top: 10px;
+  width: 30%;
+  height: auto;
+  margin-left: 455px;
+  
+}}
+
+/******************************************************************************************************/
+
+@media only screen and (max-width: 870px){
+
+
+.logoTop {
+  margin-left: 430px;
+  width: 30%;
+  height: auto;
+  padding-top: 10px;
+    
+}
+.TestText {
+    width: 50%;
+    padding-top: 30px;
+    margin-left: 385px;
+}
+
+p.one {
+    
+    font-size: 22px;
+    
+}
+
+.button {    
+    padding-top: 20px;
+    width: 35%;
+    margin-left: 420px;
+}
+
+button {
+  font-size: 22px;
+}
+
+.logoBottom {
+  
+  padding-top: 10px;
+  width: 30%;
+  height: auto;
+  margin-left: 430px;
+  
+}}
+
+/**************************************************************************************************/
+@media only screen and (max-width: 685px){
+
+
+img{
+    max-width:100% ;
+    height:auto;
+    display:block;
+}
+
+
+.logoTop {
+  margin-left: 370px;
+    width: 30%;
+    height: auto;
+    padding-top: 10px;
+    
+}
+.TestText {
+    width: 30%;
+    padding-top: 30px;
+    margin-left: 340px;
+}
+
+p.one {
+    
+    font-size: 18px;
+    
+}
+
+.button {    
+    padding-top: 20px;
+    width: 25%;
+    margin-left: 380px;
+}
+
+button {
+  font-size: 18px;
+}
+
+.logoBottom {
+  
+   padding-top: 30px;
+    width: 30%;
+    height: auto;
+    margin-left: 350px;
+
+  
+}}
+
+/*----------------------------------------------------------*/
+
+@media only screen and (max-width: 641px) {
+
+img{
+    max-width:100% ;
+    height:auto;
+    display:block;
+}
+
+
+.logoTop {
+  margin-left: 360px;
+    width: 30%;
+    height: auto;
+    padding-top: 10px;
+    
+}
+.TestText {
+    width: 30%;
+    padding-top: 30px;
+    margin-left: 330px;
+}
+
+p.one {
+    
+    font-size: 18px;
+    
+}
+
+.button {    
+    padding-top: 20px;
+    width: 25%;
+    margin-left: 370px;
+}
+
+button {
+  font-size: 18px;
+}
+
+.logoBottom {
+  
+   padding-top: 30px;
+    width: 30%;
+    height: auto;
+    margin-left: 340px;
+
+  
+}}
+
+/****************************************************************/
+@media only screen and (max-width: 580px){
+
+img{
+    max-width:100% ;
+    height:auto;
+    display:block;
+}
+
+
+.logoTop {
+  margin-left: 350px;
+    width: 20%;
+    height: auto;
+    padding-top: 10px;
+    
+}
+.TestText {
+    width: 30%;
+    padding-top: 30px;
+    margin-left: 300px;
+}
+
+p.one {
+    
+    font-size: 14px;
+    
+}
+
+.button {    
+    padding-top: 20px;
+    width: 25%;
+    margin-left: 340px;
+}
+
+button {
+  font-size: 14px;
+}
+
+.logoBottom {
+  
+   padding-top: 40px;
+    width: 30%;
+    height: auto;
+    margin-left: 320px;
+
+  
+}}
+
+/***************************************************************/
+
+
+
+@media only screen and (max-width: 490px){
+
+img{
+    max-width:100% ;
+    height:auto;
+    display:block;
+}
+
+
+.logoTop {
+  margin-left: 300px;
+    width: 20%;
+    height: auto;
+    padding-top: 10px;
+    
+}
+.TestText {
+    width: 30%;
+    padding-top: 30px;
+    margin-left: 250px;
+}
+
+p.one {
+    
+    font-size: 14px;
+    
+}
+
+.button {    
+    padding-top: 20px;
+    width: 25%;
+    margin-left: 290px;
+}
+
+button {
+  font-size: 14px;
+}
+
+.logoBottom {
+  
+   padding-top: 40px;
+    width: 30%;
+    height: auto;
+    margin-left: 270px;
+
+  
+}}
+/**************************************************************/
+
+@media only screen and (max-width: 420px){
+
+img{
+    max-width:100% ;
+    height:auto;
+    display:block;
+}
+
+
+.logoTop {
+  margin-left: 230px;
+    width: 20%;
+    height: auto;
+    padding-top: 10px;
+    
+}
+.TestText {
+    width: 30%;
+    padding-top: 30px;
+    margin-left: 185px;
+}
+
+p.one {
+    
+    font-size: 12px;
+    
+}
+
+.button {    
+    padding-top: 20px;
+    width: 25%;
+    margin-left: 220px;
+}
+
+button {
+  font-size: 14px;
+}
+
+.logoBottom {
+  
+   padding-top: 40px;
+    width: 30%;
+    height: auto;
+    margin-left: 200px;
+
+  
+}}
+/*****************************************************************/
+
+@media only screen and (max-width: 350px){
+
+img{
+    max-width:100% ;
+    height:auto;
+    display:block;
+}
+
+
+.logoTop {
+  margin-left: 180px;
+    width: 20%;
+    height: auto;
+    padding-top: 10px;
+    
+}
+.TestText {
+    width: 30%;
+    padding-top: 30px;
+    margin-left: 140px;
+}
+
+p.one {
+    
+    font-size: 10px;
+    
+}
+
+.button {    
+    padding-top: 20px;
+    width: 25%;
+    margin-left: 170px;
+}
+
+button {
+  font-size: 12px;
+}
+
+.logoBottom {
+  
+   padding-top: 40px;
+    width: 30%;
+    height: auto;
+    margin-left: 160px;
+
+  
+}}
+
+
+ 
+
+
+ 
